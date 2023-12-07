@@ -48,7 +48,7 @@ pipeline
             steps
             {
                 sh "rm -rf *"
-                sh "git clone https://github.com/sonali171094/revert.git -b 23Q2
+                sh "git clone https://github.com/sonali171094/revert.git -b 23Q2"
                 sh "sudo chmod -R 777 /mnt"
                 sh "sudo yum install httpd -y"
                 sh "sudo service httpd start"
