@@ -9,7 +9,7 @@ pipeline
     }
     stages
     {
-        stage("Branch 2023-Q1 Cloning")
+        stage("Branch 23Q1 Cloning")
         {
             steps
             {
