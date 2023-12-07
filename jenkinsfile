@@ -14,7 +14,7 @@ pipeline
             steps
             {
                 sh "rm -rf *"
-                sh "git clone https://github.com/sonali171094/revert.git -b 2023-Q1"
+                sh "git clone https://github.com/sonali171094/revert.git -b 2023Q1"
                 sh "sudo chmod -R 777 /mnt"
             }
         }
